@@ -29,18 +29,8 @@ public class V2TRIFIVS {
     mult3 = numero%3;
     mult5 = numero%5;
     //Salida de Datos
-    if(mult3==0)
-    {
-        System.out.println("TRI");
-    }
-    if(mult5==0)
-    {
-        System.out.println("FIV");
-    }
-    if(mult3==0&&mult5==0 )
-    {
-        System.out.println("TRIFIV");
-        // TODO code application logic here
+
+// TODO code application logic here
     }else
          if(mult3==0 )
          {
