@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public class V1TRIFIU 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOExeception {
         //Declaracion de variantes
     int numero;
     int mult3;
