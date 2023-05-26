@@ -23,12 +23,15 @@ public class V3TRIFIV {
             mult5 = num % 5 ;
             //salida de datos 
             if( mult3 == 0 && mult5 == 0){
-                return "TRIFIV";
+            return "TRIFIV";
                 
-            } else if (mult3==0){
-                return "TRI";
-            } else if (mult5==0){
-                return "FIV";
+            } 
+            else if (mult3==0)
+            {
+            return "TRI";
+            }
+            else if (mult5==0){
+            return "FIV";
             }
             return "Ningun caso";
         }  
