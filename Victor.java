@@ -16,21 +16,22 @@ public class Victor {
         System.out.println("Da tu edad");
         Edad = Edades.nextInt();
 
-    //Salida
+        //Salida
         System.out.println(MayoroMenor(Edad));
 
     }
     
     public static String MayoroMenor (int Edad)
+        
     {
     
         //Salida de datos
         
-     if (Edad < 18)
+         if (Edad < 1 8 )                
      {
          return "Menor";
      }
-        if (Edad >= 18)
+         if (Edad >= 18)
             
         {
      
